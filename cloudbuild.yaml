@@ -1,0 +1,11 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+    - beta
+    - functions
+    - deploy
+    - subscribe
+    - --stage-bucket=mukeo-bot-bucket
+    - --trigger-topic=cloud-builds
+    
+
