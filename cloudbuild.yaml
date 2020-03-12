@@ -7,6 +7,7 @@ steps:
     - subscribe
     - --stage-bucket=mukeo-bot-bucket
     - --trigger-topic=cloud-builds
-    - --runtime
+    - --runtime=go113
+
     
 
